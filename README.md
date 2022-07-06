@@ -19,12 +19,14 @@ We are creating a database with a multiple tables and records. Please follow the
 5. Open the SQL editor and run the queries in [data.sql](/data.sql)
 
 ## Entity Relationship Diagram (ERD)
+
 See a diagram of the available entities and their relationships. https://docs.google.com/drawings/d/1eA7JJtCVDL0K45aVzbxIUrgWXHoKY5vv1jAhssC2c1A/edit
 
 NOTE: Remember that a many-to-many relationship requires a join table, so the entities in the diagram may be missing some actual tables. Explore the tables in your database.
 
-## GitHub repo
-1. Create a GitHub repo named “prime-group-joins”. 
+## GitHub Repo
+
+1. Create a GitHub repo named “prime-group-joins”.
 2. Create a file called “joins-solution.sql”. You will store your responses to the exercise questions here. NOTE: This is merely a text file with a .sql extension.
 
 # Exercise
@@ -34,7 +36,6 @@ For each of the following questions
 * Write a comment that specifies which question you are answering. (SQL comments are two dashes, followed by text.)
 * Write the SQL query that answers the question, below that comment.
 
-
 ## Example question and answer
 
 ```SQL
@@ -42,7 +43,8 @@ For each of the following questions
 SELECT * FROM customers;
 ```
 
-## Tasks
+## Base Tasks
+
 1. Get all customers and their addresses.
 2. Get all orders and their line items (orders, quantity and product).
 3. Which warehouses have cheetos?
@@ -52,7 +54,8 @@ SELECT * FROM customers;
 7. How many products do we carry?
 8. What is the total available on-hand quantity of diet pepsi?
 
-## Stretch
+## Stretch Tasks
+
 9. How much was the total cost for each order?
 10. How much has each customer spent in total?
 11. How much has each customer spent in total? Customers who have spent $0 should still show up in the table. It should say 0, not NULL (research coalesce).
